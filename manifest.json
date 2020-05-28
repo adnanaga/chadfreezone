@@ -1,0 +1,20 @@
+{
+  "name": "Boys That Will Ruin Your Life",
+  "description" : "Be cool.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://www.google-analytics.com/",
+    "storage"
+  ],
+  "icons": {
+    "16": "tinder16.png",
+    "48": "tinder48.png",
+    "128": "tinder128.png"
+  },
+  "run_at": "document_end"
+}
