@@ -5,21 +5,21 @@
   </head>
   <body>
     <div>
-      <h1>Show Checkboxes</h1>
+      <input type="checkbox" id="s4m" name="s4m" value="s4m">
+      <label for="s4m"> Swipe For Me</label>
 
-      <form action="/action_page.php">
         <p>Please select your gender:</p>
-        <input type="radio" id="male" name="preference" value="boys">
+        <input type="radio" id="male" name="preference" value="boys" checked="checked">
         <label for="boys">Boys</label><br>
         <input type="radio" id="female" name="preference" value="girls">
         <label for="girls">Girls</label><br>
         <input type="radio" id="both" name="preference" value="both">
         <label for="both">Both</label>
-      </form>
 
-      <a href="#">
+      <button id = "go">
        GO
-      </a>
+      </button>
     </div>
   </body>
 </html>
+<script type="text/javascript" src="filter.js"></script>

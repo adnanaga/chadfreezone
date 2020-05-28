@@ -15,6 +15,5 @@
     "16": "tinder16.png",
     "48": "tinder48.png",
     "128": "tinder128.png"
-  },
-  "run_at": "document_end"
+  }
 }
