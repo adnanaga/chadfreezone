@@ -12,8 +12,8 @@
     "storage"
   ],
   "icons": {
-    "16": "tinder16.png",
-    "48": "tinder48.png",
-    "128": "tinder128.png"
+    "16": "img16.png",
+    "48": "img48.png",
+    "128": "img128.png"
   }
 }
