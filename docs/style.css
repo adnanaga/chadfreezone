@@ -1,4 +1,14 @@
-input[type="radio"] {
+.blocks {
+    
+    padding: 5px 5px 5px 5px;
+    background-color: rgba(0, 191, 143, 0);
+    font-size: 2.4rem;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    input[type="radio"] {
     display:none;
 }
 
@@ -35,8 +45,10 @@ body{
 	background-color: rgb(245,247,250);
 	color:#424242;
 	font-family: 'Varela Round', sans-serif;
-	width:450px;
-  
+
+background: rgb(255,120,84);
+background: linear-gradient(0deg, rgba(255,120,84,1) 0%, rgba(253,38,125,1) 100%);
+
 }
 
 .container{
@@ -45,16 +57,15 @@ margin: 15px 15px 15px 15px;
 }
 
 .button {
-  background-color: rgb(255,50,104);
+  background-color: white;
   border: none;
-  color: white;
+  color: #424242;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 15px 0px;
-  width: 100%;
   cursor: pointer;
   font-family: 'Varela Round', sans-serif;
   border-radius: 5px
@@ -66,13 +77,19 @@ label {
 }
 
 h1 {
-	font-size: 30px;
-	color: rgb(255,50,104);
+  font-size: 40px;
+  color: white;
 
 }
 
 h2 {
+	font-size: 30px;
+	color: white;
+
+}
+
+h3 {
 	font-size: 18px;
-	color: rgb(255,50,104);
+	color: white;
 
 }
