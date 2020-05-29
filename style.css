@@ -78,3 +78,12 @@ h2 {
 	color: rgb(255,50,104);
 
 }
+
+.dropdown-content {
+  display: none;
+  z-index: 1;
+}
+
+.dropdown-content-open {
+  display: block;
+}
