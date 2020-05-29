@@ -1,15 +1,15 @@
 .blocks {
-    
-    padding: 5px 5px 5px 5px;
-    background-color: rgba(0, 191, 143, 0);
-    font-size: 2.4rem;
-    width: 60vw;
-    margin-left: auto;
-    margin-right: auto;
+
+  padding: 5px 5px 5px 5px;
+  background-color: rgba(0, 191, 143, 0);
+  font-size: 2.4rem;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-    input[type="radio"] {
-    display:none;
+input[type="radio"] {
+  display:none;
 }
 
 .select2 input[type=radio], select {
@@ -22,7 +22,7 @@
   box-sizing: border-box;
   background-color: red}
 
-.select1 input[type="radio"] + span{
+  .select1 input[type="radio"] + span{
     display:inline-block;
     width:50px;
     height:50px;
@@ -30,13 +30,13 @@
     vertical-align:middle;
     background:url(left-passive.png) left top no-repeat;
     cursor:pointer;
-}
+  }
 
-.select1 input[type="radio"]:checked + span{
+  .select1 input[type="radio"]:checked + span{
     background:url(left-active.png) left top no-repeat;
-}
+  }
 
-.select2 input[type="radio"] + span{
+  .select2 input[type="radio"] + span{
     display:inline-block;
     width:50px;
     height:50px;
@@ -44,22 +44,29 @@
     vertical-align:middle;
     background:url(right-passive.png) left top no-repeat;
     cursor:pointer;
-}
+  }
 
-.select2 input[type="radio"]:checked + span{
+  .select2 input[type="radio"]:checked + span{
     background:url(right-active.png) left top no-repeat;
+  }
+
+
+  body{
+   color:#424242;
+   font-family: 'Varela Round', sans-serif;
+   background: rgb(255,120,84);
+   background: linear-gradient(0deg, rgba(255,120,84,1) 0%, rgba(253,38,125,1) 100%);
+   height: 100%;
+   margin: 0;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+ }
+
+ html {
+  height: 100%;
 }
 
 
-body{
-	background-color: rgb(245,247,250);
-	color:#424242;
-	font-family: 'Varela Round', sans-serif;
-
-background: rgb(255,120,84);
-background: linear-gradient(0deg, rgba(255,120,84,1) 0%, rgba(253,38,125,1) 100%);
-
-}
 
 a:link {
   text-decoration: none;
@@ -78,8 +85,8 @@ a:active {
 }
 
 .container{
-margin: 15px 15px 15px 15px;
-/*outline: 5px solid red;*/
+  margin: 15px 15px 15px 15px;
+  /*outline: 5px solid red;*/
 }
 
 .button {
@@ -121,7 +128,7 @@ h3 {
 }
 
 a {
-    font-size: 15px;
-    color: white;
-    text-decoration: none;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
 }
