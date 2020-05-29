@@ -5,7 +5,7 @@ chrome.storage.sync.get(["terribleNames", "s4m"], function(result) {
 });
 
 if(window.location.href !== "https://tinder.com/app/recs") {
-    alert("Head to tinder.com and log in first!");
+    alert("Head to tinder.com to use Chad Free Zone!");
 }
 const nopeButton = document.querySelector('button[aria-label="Nope"]');
 const likeButton = document.querySelector('button[aria-label="Like"]');        
