@@ -46,7 +46,7 @@ margin: 15px 15px 15px 15px;
 
 .button {
   background: rgb(255,120,84);
-background: linear-gradient(45deg, rgba(255,120,84,1) 0%, rgba(253,38,125,1) 100%);
+background: linear-gradient(15deg, rgba(255,120,84,1) 0%, rgba(253,38,125,1) 100%);
 
   border: none;
   color: white;

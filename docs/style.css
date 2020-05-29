@@ -81,7 +81,7 @@ margin: 15px 15px 15px 15px;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 35px 0px;
+  margin: 0px 0px 25px 0px;
   cursor: pointer;
   font-family: 'Varela Round', sans-serif;
   border-radius: 5px
@@ -99,7 +99,7 @@ h1 {
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 28px;
 	color: white;
 
 }
