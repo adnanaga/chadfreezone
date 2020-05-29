@@ -1,6 +1,6 @@
 function save_options() {
-
-    if (document.getElementById('s4m').checked) {
+  
+    if (document.getElementById('auto').checked) {
         chrome.storage.sync.set({
           s4m: true
         });
