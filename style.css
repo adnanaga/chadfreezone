@@ -1,33 +1,41 @@
+input {
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  color:#424242;
+  font-family: 'Varela Round', sans-serif;
+
+}
 input[type="radio"] {
-    display:none;
+  display:none;
 }
 
 .select1 input[type="radio"] + span{
-    display:inline-block;
-    width:50px;
-    height:50px;
-    padding-top: 5px; /* align the label with the image*/
-    vertical-align:middle;
-    background:url(left-passive.png) left top no-repeat;
-    cursor:pointer;
+  display:inline-block;
+  width:50px;
+  height:50px;
+  padding-top: 5px; /* align the label with the image*/
+  vertical-align:middle;
+  background:url(left-passive.png) left top no-repeat;
+  cursor:pointer;
 }
 
 .select1 input[type="radio"]:checked + span{
-    background:url(left-active.png) left top no-repeat;
+  background:url(left-active.png) left top no-repeat;
 }
 
 .select2 input[type="radio"] + span{
-    display:inline-block;
-    width:50px;
-    height:50px;
-    padding-top: 5px; /* align the label with the image*/
-    vertical-align:middle;
-    background:url(right-passive.png) left top no-repeat;
-    cursor:pointer;
+  display:inline-block;
+  width:50px;
+  height:50px;
+  padding-top: 5px; /* align the label with the image*/
+  vertical-align:middle;
+  background:url(right-passive.png) left top no-repeat;
+  cursor:pointer;
 }
 
 .select2 input[type="radio"]:checked + span{
-    background:url(right-active.png) left top no-repeat;
+  background:url(right-active.png) left top no-repeat;
 }
 
 
@@ -36,17 +44,17 @@ body{
 	color:#424242;
 	font-family: 'Varela Round', sans-serif;
 	width:450px;
-  
+
 }
 
 .container{
-margin: 15px 15px 15px 15px;
-/*outline: 5px solid red;*/
+  margin: 15px 15px 15px 15px;
+  /*outline: 5px solid red;*/
 }
 
 .button {
   background: rgb(255,120,84);
-background: linear-gradient(15deg, rgba(255,120,84,1) 0%, rgba(253,38,125,1) 100%);
+  background: linear-gradient(15deg, rgba(255,120,84,1) 0%, rgba(253,38,125,1) 100%);
 
   border: none;
   color: white;

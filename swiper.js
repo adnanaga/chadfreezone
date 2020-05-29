@@ -5,7 +5,7 @@ chrome.storage.sync.get(["terribleNames", "s4m"], function(result) {
 });
 
 if(window.location.href !== "https://tinder.com/app/recs") {
-    alert("Go to tinder.com first!");
+    alert("Head to tinder.com and log in first!");
 }
 const nopeButton = document.querySelector('button[aria-label="Nope"]');
 const likeButton = document.querySelector('button[aria-label="Like"]');        
