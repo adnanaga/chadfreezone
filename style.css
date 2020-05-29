@@ -1,0 +1,77 @@
+input[type="radio"] {
+    display:none;
+}
+
+.select1 input[type="radio"] + span{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    padding-top: 5px; /* align the label with the image*/
+    vertical-align:middle;
+    background:url(left-passive.png) left top no-repeat;
+    cursor:pointer;
+}
+
+.select1 input[type="radio"]:checked + span{
+    background:url(left-active.png) left top no-repeat;
+}
+
+.select2 input[type="radio"] + span{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    padding-top: 5px; /* align the label with the image*/
+    vertical-align:middle;
+    background:url(right-passive.png) left top no-repeat;
+    cursor:pointer;
+}
+
+.select2 input[type="radio"]:checked + span{
+    background:url(right-active.png) left top no-repeat;
+}
+
+
+body{
+	background-color: rgb(245,247,250);
+	color:#424242;
+	font-family: 'Varela Round', sans-serif;
+	width:450px;
+}
+
+.container{
+margin: 15px 15px 15px 15px;
+/*outline: 5px solid red;*/
+}
+
+.button {
+  background-color: rgb(255,50,104);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 0px;
+  width: 100%;
+  cursor: pointer;
+  font-family: 'Varela Round', sans-serif;
+  border-radius: 5px
+}
+
+label {
+	font-size: 18px;
+	display: inline-block
+}
+
+h1 {
+	font-size: 30px;
+	color: rgb(255,50,104);
+
+}
+
+h2 {
+	font-size: 18px;
+	color: rgb(255,50,104);
+
+}
