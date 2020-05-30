@@ -4,7 +4,7 @@ chrome.storage.sync.get(["terribleNames", "s4m"], function(result) {
     s4m = result.s4m
 });
 
-if(window.location.href !== "https://tinder.com/app/recs") {
+if(window.location.hostname !== "tinder.com") {
     alert("Head to tinder.com to use Chad Free Zone!");
 }
 const nopeButton = document.querySelector('button[aria-label="Nope"]');

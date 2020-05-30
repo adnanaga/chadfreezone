@@ -11,17 +11,17 @@ function save_options() {
 
     if (document.getElementById('male').checked) {
       chrome.storage.sync.set({
-        terribleNames: ["Chad", "Zachary", "Kyle"],
+        terribleNames: ['Kyle', 'Matt', 'Chad', 'Zachary'],
         selection: 'male-default'
       });
     } else if (document.getElementById('female').checked) {
       chrome.storage.sync.set({
-        terribleNames: ['Mariah','Jessica', 'Jess', 'Emily', 'Alex', 'Emma', 'Sarah'],
+        terribleNames: ['Jessica', 'Emily', 'Katherine', 'Alex'],
         selection: 'female-default'
       });
     } else if (document.getElementById('both').checked) {
       chrome.storage.sync.set({
-        terribleNames: ["Chad", "Zachary", "Kyle", 'Mariah','Jessica', 'Jess', 'Emily', 'Alex' ],
+        terribleNames: ['Kyle', 'Matt', 'Chad', 'Zachary', 'Jessica', 'Emily', 'Katherine', 'Alex'],
         selection: 'both-default'
       });
     } else if (document.getElementById('custom').checked) {
